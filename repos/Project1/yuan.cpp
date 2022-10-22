@@ -24,12 +24,15 @@ struct Book
 
 int main()
 {
+    struct Book *pt;
+    pt = &book;
+
     printf("书名：%s\t作者：%s\t售价：%f\t出版日期：%d-%d-%d\t出版社：%s\n",
-        book.title, 
-        book.author, 
-        book.price, 
-        book.date.year, book.date.mouth, book.date.day, 
-        book.publisher);
+        pt -> title, 
+        pt -> author, 
+        pt -> price, 
+        pt -> date.year, pt -> date.mouth, pt -> date.day, 
+        pt -> publisher);
 
     return 0;
 }
