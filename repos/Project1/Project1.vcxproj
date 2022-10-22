@@ -129,7 +129,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="yuan.cpp" />
+    <ClCompile Include="StructBianLiang.cpp" />
+    <ClCompile Include="StructFirst.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

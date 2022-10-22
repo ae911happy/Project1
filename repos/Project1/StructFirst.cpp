@@ -22,7 +22,7 @@ struct Book
     "¼¦ÄãÌ«ÃÀ³ö°æÉç"
 };
 
-int main()
+int main1()
 {
     struct Book *pt;
     pt = &book;
