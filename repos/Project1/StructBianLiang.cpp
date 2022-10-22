@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+int main2()
 {
 	struct Test
 	{
@@ -14,4 +14,5 @@ int main()
 	t2 = t1;
 
 	printf("t2µÄx = %d£¬t2µÄy = %d\n", t2.x, t2.y);
+	return 0;
 }

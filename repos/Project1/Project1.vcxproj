@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DanList.cpp" />
     <ClCompile Include="StructBianLiang.cpp" />
     <ClCompile Include="StructFirst.cpp" />
   </ItemGroup>

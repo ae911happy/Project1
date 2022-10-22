@@ -21,5 +21,8 @@
     <ClCompile Include="StructBianLiang.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DanList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
